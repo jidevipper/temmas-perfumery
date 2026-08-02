@@ -1,102 +1,574 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Temma's Perfumery | Premium Fragrances</title>
+    <title>Temma's Perfumery | Luxury Fragrances</title>
+
+    <meta name="description" content="Shop authentic designer perfumes, Arabic fragrances, perfume oils and gift sets from Temma's Perfumery.">
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-<header>
+<header class="header">
 
     <div class="logo">
         <h1>Temma's Perfumery</h1>
     </div>
 
-    <nav>
-        <a href="#">Home</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#products">Products</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#testimonials">Reviews</a>
         <a href="#contact">Contact</a>
     </nav>
 
 </header>
 
-<section class="hero">
+<section id="home" class="hero">
 
-    <div class="hero-text">
+    <div class="hero-content">
 
-        <h2>Premium Fragrances.</h2>
+        <span class="hero-tag">
+            Premium Fragrances • Authentic Collection
+        </span>
 
-        <h3>Timeless Elegance.</h3>
+        <h2>
+            Luxury Fragrances That Leave a Lasting Impression
+        </h2>
 
         <p>
-            Discover authentic designer perfumes, Arabic fragrances and luxury scents that leave a lasting impression.
+            Discover authentic designer perfumes, Arabic fragrances,
+            premium gift sets and timeless scents carefully selected for
+            every occasion.
         </p>
 
-        <a href="#products" class="btn">
-            Shop Now
-        </a>
+        <div class="hero-buttons">
+
+            <a href="#products" class="btn btn-gold">
+                Explore Collection
+            </a>
+
+            <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20your%20fragrances."
+               class="btn btn-outline"
+               target="_blank">
+                Order on WhatsApp
+            </a>
+
+        </div>
 
     </div>
 
     <div class="hero-image">
 
         <img src="images/hero.jpg"
-        alt="Temma's Perfumery Hero Image">
+             alt="Temma's Perfumery Hero">
 
     </div>
 
+</section>
+
+<!-- ABOUT SECTION STARTS BELOW -->
 <section id="about" class="about">
 
     <div class="container">
 
-        <h2>About Temma's Perfumery</h2>
+        <div class="about-image">
 
-        <p>
-            At <strong>Temma's Perfumery</strong>, we believe every fragrance tells a story.
-            We carefully select authentic designer perfumes, Arabic fragrances,
-            perfume oils and premium gift sets that combine elegance,
-            quality and affordability.
+            <img src="images/about.jpg"
+                 alt="Temma's Perfumery Collection">
 
-            Whether you're looking for an everyday signature scent or
-            a luxurious gift for someone special,
-            Temma's Perfumery is your trusted destination.
-        </p>
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-tag">
+                ABOUT US
+            </span>
+
+            <h2>
+                Every Fragrance Tells a Story
+            </h2>
+
+            <p>
+                Welcome to <strong>Temma's Perfumery</strong>, your trusted destination for authentic designer perfumes, premium Arabic fragrances, elegant gift sets, perfume oils, and luxury scents.
+            </p>
+
+            <p>
+                We believe fragrance is more than just a pleasant smell—it's an expression of personality, confidence, and unforgettable memories. That's why we carefully select high-quality perfumes that combine luxury, elegance, and affordability.
+            </p>
+
+            <p>
+                Whether you're shopping for yourself or searching for the perfect gift, we're committed to providing excellent customer service and fragrances you'll love.
+            </p>
+
+            <div class="about-features">
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Authentic Fragrances</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Affordable Prices</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Fast Nationwide Delivery</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Excellent Customer Support</span>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
-<section id="products">
+<!-- FEATURED PRODUCTS START HERE -->
+<section id="products" class="products">
 
-    <h2 class="section-title">
-        Featured Collection
-    </h2>
+    <div class="container">
+
+        <span class="section-tag">
+            FEATURED COLLECTION
+        </span>
+
+        <h2>Discover Our Best Sellers</h2>
+
+        <p class="section-description">
+            Carefully selected luxury fragrances loved by our customers.
+        </p>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/oud-al-layl.jpg" alt="Oud Al Layl Gift Set">
+
+                <div class="product-info">
+                    <h3>Oud Al Layl Gift Set</h3>
+
+                    <p>
+                        A luxurious fragrance gift set perfect for special occasions.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20the%20Oud%20Al%20Layl%20Gift%20Set."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/asad.jpg" alt="Lattafa Asad">
+
+                <div class="product-info">
+                    <h3>Lattafa Asad</h3>
+
+                    <p>
+                        Bold, rich and long-lasting masculine fragrance.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20Lattafa%20Asad."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/khamrah.jpg" alt="Lattafa Khamrah">
+
+                <div class="product-info">
+                    <h3>Lattafa Khamrah</h3>
+
+                    <p>
+                        Sweet, warm and luxurious fragrance with exceptional longevity.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20Lattafa%20Khamrah."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/ambition.jpg" alt="Ambition Eau de Parfum">
+
+                <div class="product-info">
+                    <h3>Ambition</h3>
+
+                    <p>
+                        Elegant everyday fragrance with a fresh modern scent.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20Ambition."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/black-diamond.jpg" alt="Black Diamond">
+
+                <div class="product-info">
+                    <h3>Black Diamond</h3>
+
+                    <p>
+                        Premium fragrance crafted for confidence and elegance.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20Black%20Diamond."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/perfume-collection.jpg" alt="Perfume Collection">
+
+                <div class="product-info">
+                    <h3>Luxury Perfume Collection</h3>
+
+                    <p>
+                        Explore a variety of premium fragrances for every personality.
+                    </p>
+
+                    <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20your%20Luxury%20Perfume%20Collection."
+                    target="_blank"
+                    class="order-btn">
+
+                    Order on WhatsApp
+
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section id="contact">
+<!-- WHY CHOOSE US STARTS HERE -->
+<section id="why-us" class="why-us">
 
-    <h2 class="section-title">
-        Contact Us
-    </h2>
+    <div class="container">
+
+        <span class="section-tag">
+            WHY CHOOSE US
+        </span>
+
+        <h2>Why Customers Choose Temma's Perfumery</h2>
+
+        <p class="section-description">
+            We are committed to delivering premium fragrances with exceptional service,
+            giving every customer a luxury shopping experience.
+        </p>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-award"></i>
+
+                <h3>Authentic Products</h3>
+
+                <p>
+                    We stock genuine designer perfumes and premium Arabic fragrances from trusted brands.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-tags"></i>
+
+                <h3>Affordable Prices</h3>
+
+                <p>
+                    Luxury fragrances at prices that fit your budget without compromising quality.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <h3>Fast Delivery</h3>
+
+                <p>
+                    We process orders quickly and deliver across Nigeria with care.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-headset"></i>
+
+                <h3>Customer Support</h3>
+
+                <p>
+                    Friendly and responsive service before, during, and after every purchase.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-gift"></i>
+
+                <h3>Perfect Gift Options</h3>
+
+                <p>
+                    Beautiful fragrance gift sets for birthdays, anniversaries, and special occasions.
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <h3>Customer Satisfaction</h3>
+
+                <p>
+                    Your satisfaction is our priority. We aim to make every order a delightful experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<script src="script.js"></script>
+<!-- TESTIMONIALS START HERE -->
+<section id="testimonials" class="testimonials">
 
-</body>
-</html>
+    <div class="container">
+
+        <span class="section-tag">
+            CUSTOMER REVIEWS
+        </span>
+
+        <h2>What Our Customers Say</h2>
+
+        <p class="section-description">
+            Nothing makes us happier than satisfied customers who love our fragrances.
+        </p>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "I ordered Lattafa Asad and it exceeded my expectations.
+                    The scent lasts all day and the customer service was excellent!"
+                </p>
+
+                <h4>— Adebayo T.</h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "Very fast delivery and authentic perfumes.
+                    I highly recommend Temma's Perfumery to anyone looking for quality fragrances."
+                </p>
+
+                <h4>— Esther M.</h4>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "Beautiful packaging, amazing scent, and affordable prices.
+                    I'll definitely be ordering again."
+                </p>
+
+                <h4>— David O.</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT SECTION STARTS HERE -->
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <span class="section-tag">
+            CONTACT US
+        </span>
+
+        <h2>Let's Help You Find Your Perfect Fragrance</h2>
+
+        <p class="section-description">
+            We'd love to hear from you. Reach out through WhatsApp, email, or TikTok, and we'll respond as quickly as possible.
+        </p>
+
+        <div class="contact-grid">
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                <h3>WhatsApp</h3>
+
+                <p>+234 708 349 7850</p>
+
+                <a href="https://wa.me/2347083497850?text=Hello%20Temma's%20Perfumery!%20I'm%20interested%20in%20your%20fragrances."
+                   target="_blank"
+                   class="contact-btn">
+
+                    Chat on WhatsApp
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <p>nofiujesutofunmi2022@gmail.com</p>
+
+                <a href="mailto:nofiujesutofunmi2022@gmail.com"
+                   class="contact-btn">
+
+                    Send Email
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-tiktok"></i>
+
+                <h3>TikTok</h3>
+
+                <p>@Theperfumehouse4</p>
+
+                <a href="https://www.tiktok.com/@Theperfumehouse4"
+                   target="_blank"
+                   class="contact-btn">
+
+                    Visit TikTok
+
+                </a>
+
+            </div>
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <h3>Location</h3>
+
+                <p>Ogbomosho, Oyo State, Nigeria</p>
+
+                <span class="contact-location">
+
+                    Nationwide Delivery Available
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER STARTS HERE -->
+<footer class="footer">
+
+    <div class="container">
+
+        <p class="footer-tagline">
+            Crafted with ❤️ for fragrance lovers.
+        </p>
+
+        <p class="copyright">
+            © 2026 Temma's Perfumery. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
